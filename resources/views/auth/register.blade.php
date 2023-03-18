@@ -53,9 +53,9 @@
                         <label for="password" class="fw-bold mb-1">Kata Sandi</label>
                         <div class="input-group mb-3">
                             <input type="password" name="password" id="password"
-                                class="form-control @error('password') is-invalid @enderror"
+                                class="form-control border-dark @error('password') is-invalid @enderror"
                                 placeholder="Masukkan Kata Sandi" required>
-                            <span class="input-group-text" id="showHidePassword" style="cursor: pointer">
+                            <span class="input-group-text border-dark" id="showHidePassword" style="cursor: pointer">
                                 <i class="fa fa-eye-slash" style="color: black" id="eyeIcon"></i>
                             </span>
                             @error('password')
