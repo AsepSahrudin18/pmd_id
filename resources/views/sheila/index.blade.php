@@ -1,4 +1,4 @@
 @extends('layouts.app')
 @section('content')
-    <h1>ini adalah tugas - Sheila</h1>
+    <h1>Sheila</h1>
 @endsection
