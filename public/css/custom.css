@@ -1,0 +1,28 @@
+.f-color{
+    color: #303030;
+}
+
+/* small screen */
+.box-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #303030;
+}
+
+/* large screen */
+@media screen and (min-width: 992px) {
+    .box-container{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+    .right-box{
+        flex-basis: 50%;
+    }
+
+    .left-box{
+        flex-basis: 50%;
+    }
+}
