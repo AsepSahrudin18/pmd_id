@@ -2,17 +2,38 @@
     color: #303030;
 }
 
+.btn-login{
+    background-color: #E95C56;
+    border: none;
+    color: white;
+    padding: 0.5rem;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+.link-pw{
+    text-decoration: none;
+    color: #303030;
+}
+
 /* small screen */
-.box-container{
-    display: flex;
-    flex-direction: column;
+.inner-container{
     justify-content: center;
-    background-color: #303030;
+    display: block;
+}
+
+.right-box{
+    display: none;
+}
+
+.img-custom{
+    height: auto;
+    width: 100%;
 }
 
 /* large screen */
 @media screen and (min-width: 992px) {
-    .box-container{
+    .inner-container{
         display: flex;
         justify-content: space-between;
         flex-direction: row;
@@ -20,9 +41,13 @@
 
     .right-box{
         flex-basis: 50%;
+        display: flex;
     }
 
     .left-box{
         flex-basis: 50%;
+        align-items: center;
+        /* justify-content: center;
+        display: flex; */
     }
 }
