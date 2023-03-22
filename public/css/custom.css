@@ -31,6 +31,11 @@
     width: 100%;
 }
 
+.img-footer{
+    height: auto;
+    width: 100%;
+}
+
 footer {
     background-color: #f9ae9b;
     margin-top: 10rem;
@@ -41,6 +46,24 @@ footer {
 footer a {
     text-decoration: none;
     color: black;
+}
+
+/* medium screen */
+@media screen and (min-width: 768px) {
+    .img-footer{
+        height: auto;
+        width: 40%;
+    }
+
+    .img-position{
+        justify-content: center;
+    }
+
+    .position-sub-box{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
 }
 
 /* large screen */
@@ -61,6 +84,19 @@ footer a {
         align-items: center;
         /* justify-content: center;
         display: flex; */
+    }
+
+    .img-footer{
+        height: auto;
+        width: 80%;
+    }
+
+    .b-footer{
+        flex-basis: 40%;
+    }
+
+    .img-position{
+        justify-content: left;
     }
 }
 
