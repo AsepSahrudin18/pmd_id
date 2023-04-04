@@ -31,7 +31,7 @@
     width: 100%;
 }
 
-.img-footer{
+.img-footer {
     height: auto;
     width: 100%;
 }
@@ -48,21 +48,42 @@ footer a {
     color: black;
 }
 
+.tentang-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+}
+
 /* medium screen */
 @media screen and (min-width: 768px) {
-    .img-footer{
+    .img-footer {
         height: auto;
         width: 40%;
     }
 
-    .img-position{
+    .img-position {
         justify-content: center;
     }
 
-    .position-sub-box{
+    .position-sub-box {
         display: flex;
         justify-content: space-between;
         flex-direction: row;
+    }
+
+    .tujuan-title {
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 27px;
+        letter-spacing: 0.01em;
+    }
+
+    .tujuan-text {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0.02em;
     }
 }
 
@@ -86,22 +107,63 @@ footer a {
         display: flex; */
     }
 
-    .img-footer{
+    .img-footer {
         height: auto;
         width: 80%;
     }
 
-    .b-footer{
+    .b-footer {
         flex-basis: 40%;
     }
 
-    .img-position{
+    .img-position {
         justify-content: left;
+    }
+
+    .title-text {
+        font-size: 64px !important;
+        font-weight: 700;
+        line-height: 96px;
+        letter-spacing: 0.03em;
+    }
+
+    .subtitle-text {
+        width: 50%;
     }
 }
 
 @media screen and (max-width: 576px) {
     .media-partner img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .tujuan-title {
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 25px;
+        letter-spacing: 0.01em;
+    }
+
+    .tujuan-text {
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 25px;
+        letter-spacing: 0.02em;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .title-text {
+        font-size: 24px;
+        font-style: italic;
+        font-weight: 700;
+        line-height: 36px;
+        letter-spacing: 0.03em;
+    }
+
+    .subtitle-text {
         width: 100%;
     }
 }

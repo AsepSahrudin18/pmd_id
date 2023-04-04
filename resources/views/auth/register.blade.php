@@ -5,14 +5,14 @@
 
         <div class="row justify-content-center">
             <div class="d-none d-lg-block col-lg-6 mt-5">
-                <img src="{{ asset('img/register-img.png') }}" alt="Register" class="img-fluid">
+                <img src="{{ asset('assets/image/register-img.png') }}" alt="Register" class="img-fluid">
             </div>
 
             <div class="col-12 col-lg-6 px-5 ps-lg-5">
                 <h1 class="fw-bold">Daftar</h1>
                 <p class="w-lg-75">Daftar untuk bergabung dan ikuti event yang kamu mau.</p>
                 <button class="btn bg-transparent border border-dark w-100 w-75">
-                    <img src="{{ asset('img/google-logo.png') }}" alt="Google" class="me-3">
+                    <img src="{{ asset('assets/image/google-logo.png') }}" alt="Google" class="me-3">
                     Daftar dengan Google
                 </button>
                 <div class="d-flex flex-row mt-4">
