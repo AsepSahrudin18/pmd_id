@@ -13,9 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::view('/', 'pages.home.index');
 
 Auth::routes();
 
@@ -25,3 +23,5 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Route::view('sahrudin', 'sahrudin.index');
 Route::view('afrida', 'afrida.index');
 Route::view('sheila', 'sheila.index');
+
+Route::view('homepage', 'landingpage.home');
