@@ -40,10 +40,10 @@
                                 <img src="{{ url('assets/image/youtube-logo.png') }}" alt="" class="me-2">
                                 <p class="mt-2"><a class="link-footer" href="">PMD.ID</a></p>
                             </div>
-                            <div class="d-flex align-items-center">
+                            {{-- <div class="d-flex align-items-center">
                                 <img src="{{ url('assets/image/discord-logo.png') }}" alt="" class="me-2">
                                 <p class="mt-2"><a class="link-footer" href="">pmd.id</a></p>
-                            </div>
+                            </div> --}}
                         </div>
                     </div>
                 </div>

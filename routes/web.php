@@ -17,8 +17,8 @@ Route::view('/', 'pages.home.index');
 
 Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home.landingpage');
+Route::view('/about', 'pages.about.index')->name('about.landingpage');
 
 Route::view('sahrudin', 'sahrudin.index');
 Route::view('afrida', 'afrida.index');
